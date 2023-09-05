@@ -22,7 +22,7 @@ function UpdateTask({ oldTaskName, setShowUpdateTask }) {
           onChange={(e) => {
             setNewTaskName(e.target.value);
           }}
-          placeholder='Update Task'
+          defaultValue={oldTaskName}
         />
         <button className='CreateTaskButton' onClick={updateTaskInList}>
           Update Task
