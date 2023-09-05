@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display&display=swap');
+
+.TaskDetails{
+    display: grid;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+.IndividualTask{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 150px;
+}
+
+.IndividualTask h4{
+    font-family: 'Wix Madefor Display', sans-serif;
+}
+
+.IndividualTask .Update{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #31C6EB;
+    color: aliceblue;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 20px;
+  
+  }
+
+  .IndividualTask .Delete{
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #EA3E20;
+    color: aliceblue;
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 20px;
+  
+  }
+
